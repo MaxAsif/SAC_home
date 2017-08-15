@@ -47,19 +47,7 @@
       .row.content {height:auto;} 
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-    @media only screen and (min-width: 1200px) {
+   @media only screen and (min-width: 1200px) {
 
 .navbar .nav li {
     display: table-cell;
@@ -76,7 +64,7 @@
 }
 
 
-img
+#logo
 {
 margin-left: 40%;
 }
@@ -91,7 +79,7 @@ margin-left: 40%;
     background: linear-gradient(white, #D3D8E8);
   background-repeat: no-repeat;
 }
-h2
+#about_head
 {
   text-align: center;
   text-decoration: underline;
@@ -107,8 +95,16 @@ h2
   </style>
 </head>
 <body>
+
+
   <div class="container-fluid"></div>
-  <div class="head"> <a  href="#"><img src="sac_logo.png" width=""></a></div>
+  <div class="head"> <a  href="#"><img  id="logo" src="sac_logo.png" width=""></a></div>
+
+
+
+
+
+
 <nav class="navbar navbar-inverse">
 
     <div class="navbar-header">
@@ -132,6 +128,7 @@ h2
     </div>
   </div>
 </nav>
+<?php include 'slider/carousal2.php';?>
   
 <div class="container-fluid text-center">    
   <div class="row content">
@@ -143,7 +140,7 @@ h2
     <div class="col-sm-8 text-left"> 
 
   <br />
-  <h2>ABOUT US</h2>
+  <h2 id="about_head">ABOUT US</h2>
   <br /><br />
 
     <div class="about" style="background-color: white;">
