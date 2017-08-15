@@ -14,14 +14,7 @@
       margin-bottom: 0;
       border-radius: 0;
     
-        }
-
-.container-fluid
-{
-
-}
-
-    
+        } 
     /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
     .row.content {height: 450px}
     
@@ -85,29 +78,41 @@ margin-left: 40%;
   text-align: center;
   text-decoration: underline;
 }
+input[type=button]
+{
+  background-color: black;
+  color: black;
+}
+.btn-link
+{
+  background-color: black;
+
+}
+.headsoc{
+    text-align: center;
+    padding-top: 20px;
+   }
+   
+ #foot{
+      padding-top: 15px;
+      text-align: center;
+    }
 
 
-
-
-
-
-
-
-  </style>
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+</style>
 </head>
 <body>
 
 
   <div class="container-fluid"></div>
   <div class="head"> <a  href="#"><img  id="logo" src="sac_logo.png" width=""></a></div>
-
-
-
-
-
-
 <nav class="navbar navbar-inverse">
-
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
@@ -129,7 +134,62 @@ margin-left: 40%;
     </div>
   </div>
 </nav>
-<?php include 'slider/carousal2.php';?>
+
+
+
+<div class="container">
+  
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+     <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+   <li data-target="#myCarousel" data-slide-to="5"></li> 
+   
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="slider/mentorship.jpg"  style="width:100%; ">
+      </div>
+
+      <div class="item">
+        <img src="slider/alvida1.jpg"  style="width:100%;">
+      </div>
+    
+      
+          <div class="item">
+        <img src="slider/3.jpg"  style="width:100%;">
+      </div>
+      <div class="item">
+        <img src="slider/givingback.jpg"  style="width:100%;">
+      </div>
+          <div class="item">
+        <img src="slider/sam3.jpg"  style="width:100%;">
+      </div>
+          <div class="item">
+        <img src="slider/yoy1.jpg"  style="width:100%;">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+
+
   
 <div class="container-fluid text-center">    
   <div class="row content">
