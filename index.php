@@ -9,6 +9,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
   <style>
+  
     /* Remove the navbar's default margin-bottom and rounded borders */ 
     .navbar {
       margin-bottom: 0;
@@ -110,9 +111,10 @@ input[type=button]
 <body>
 
 
-  <div class="container-fluid"></div>
+  <div class="container-fluid">
   <div class="head"> <a  href="#"><img  id="logo" src="sac_logo.png" width=""></a></div>
-<nav class="navbar navbar-inverse">
+  </div>
+<nav class="navbar navbar-inverse" >
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
@@ -137,7 +139,7 @@ input[type=button]
 
 
 
-<div class="container">
+<div class="container-fluid">
   
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
@@ -187,26 +189,17 @@ input[type=button]
     </a>
   </div>
 </div>
-
-
-
-  
+ 
 <div class="container-fluid text-center">    
   <div class="row content">
-    <div class="col-sm-2 sidenav">
-      <p><a href="#">Link</a></p>
-      <p><a href="#">Link</a></p>
-      <p><a href="#">Link</a></p>
+    <div class="col-sm-3 sidenav">
+    <img class="img-rounded" width="200px" src="img/alumni.jpg"><br>
+    <img class="img-rounded" width="200px" src="img/insti.jpg"><br>
+    <img class="img-rounded" width="200px" src="img/students.jpg">
     </div>
-    <div class="col-sm-8 text-left"> 
-
-  <br />
-  <h2 id="about_head">ABOUT US</h2>
-  <br /><br />
-
-    <div class="about" style="background-color: white;">
-                    <p class="z-depth-1 text_align" style="font-size: 16px;padding: 3.3em 3em">
-                      The Students' Alumni Cell, IIT Kharagpur is a voluntary student body working under the aegis 
+    <div class="col-sm-6 text-left"> 
+      <h1>About Us</h1>
+      <p>The Students' Alumni Cell, IIT Kharagpur is a voluntary student body working under the aegis 
                       of the Dean of Alumni Affairs and International Relations. It strives to bridge the gap between 
                       IIT Kharagpur and its esteemed alumni community.<br>
                             <br>
@@ -216,25 +209,21 @@ input[type=button]
                        regular guest lectures by distinguished alumni in the campus, publishing the annual 
                        literary magazine (Yearnings of Yore) & the annual yearbook.  
                        The Students' Alumni Cell also operates the Student - Alumni Mentorship Programme, My Imprint
-                      (Giving Back - Alumni contribution) and organises Alvida (the annual farewell dinner).
-                    </p>
-                </div>
-      
+                      (Giving Back - Alumni contribution) and organises Alvida (the annual farewell dinner).</p>
+      <hr>
     </div>
-    <div class="col-sm-2 sidenav">
-      <div class="well">
-        <p>ADS</p>
-      </div>
-      <div class="well">
-        <p>ADS</p>
-      </div>
+    <div class="col-sm-3 sidenav">
+      <img class="img-rounded" width="150px" src="img/classgift.jpg"><br>
+      <img class="img-rounded" width="150px" src="img/mentor.jpg"><br>
+      <img class="img-rounded" width="150px" src="img/guestlecture.jpg"><br>
+      <img class="img-rounded" width="150px" src="img/yearbook.jpg"><br>
     </div>
   </div>
 </div>
 
 
 
-
+<div class="container">
 <div class="row" style="color:white;background-color: black">
   <div class="col-sm-4"><p id="foot"><strong>Office of Alumni Affairs & International Relations,<br>
                    Indian Institute of Technology, Kharagpur<br>
@@ -261,6 +250,7 @@ input[type=button]
                   </div>
                 </div>
               </div>
+</div>
 </div>
 
 <footer class="container-fluid text-center">
