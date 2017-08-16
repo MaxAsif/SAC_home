@@ -148,9 +148,7 @@ input[type=button]
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
      <li data-target="#myCarousel" data-slide-to="3"></li>
-      <li data-target="#myCarousel" data-slide-to="4"></li>
-   <li data-target="#myCarousel" data-slide-to="5"></li> 
-   
+      <li data-target="#myCarousel" data-slide-to="4"></li>  
     </ol>
 
     <!-- Wrapper for slides -->
@@ -161,11 +159,6 @@ input[type=button]
 
       <div class="item">
         <img src="slider/alvida1.jpg"  style="width:100%;">
-      </div>
-    
-      
-          <div class="item">
-        <img src="slider/3.jpg"  style="width:100%;">
       </div>
       <div class="item">
         <img src="slider/givingback.jpg"  style="width:100%;">
